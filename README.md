@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @fadlan-dev
-- 👀 I’m interested in ...
+- 👋 Hi, I’m Fadlan
+- 👀 I’m interested in programing
 - 🌱 I’m currently learning Go 
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 📫 How to reach me fadlan.8291@gmail.com
 
 <!---
 fadlan-dev/fadlan-dev is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
