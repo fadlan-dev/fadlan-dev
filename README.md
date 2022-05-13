@@ -4,7 +4,9 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me fadlan.8291@gmail.com
 
-`type aboutMe struct {
+
+```go
+type aboutMe struct {
   pronouns   []string
   languages  []string
   hobbies    []string
@@ -24,7 +26,7 @@ func main() {
   fmt.Printf("My Hobbies: %v\n", pallat.hobbies)
   fmt.Printf("Fun Fact: %s\n", pallat.funFact)
 }
-`
+```
 
 <!---
 fadlan-dev/fadlan-dev is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
