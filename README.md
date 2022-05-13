@@ -14,17 +14,17 @@ type aboutMe struct {
 }
 
 func main() {
-  pallat := aboutMe {
+  fadlan := aboutMe {
     pronouns: ["He", "Him"],
-    languages: ["Go", "Go", "Go", "JavaScript"],
+    languages: ["JavaScript" , "Go"],
     hobbies: ["Reading", "Watching", "Coding"],
     funFact: "The Sunrise is in the East",
   }
   
-  fmt.Printf("Pronouns: %v\n", pallat.pronouns)
-  fmt.Printf("Languages I Know: %v\n", pallat.languages)
-  fmt.Printf("My Hobbies: %v\n", pallat.hobbies)
-  fmt.Printf("Fun Fact: %s\n", pallat.funFact)
+  fmt.Printf("Pronouns: %v\n", fadlan.pronouns)
+  fmt.Printf("Languages I Know: %v\n", fadlan.languages)
+  fmt.Printf("My Hobbies: %v\n", fadlan.hobbies)
+  fmt.Printf("Fun Fact: %s\n", fadlan.funFact)
 }
 ```
 
