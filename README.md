@@ -28,9 +28,9 @@ func main() {
 }
 ```
 
+
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=fadlan-dev&show_icons=true)
 
-- Top languages
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fadlan-dev)](https://github.com/anuraghazra/github-readme-stats)
 
