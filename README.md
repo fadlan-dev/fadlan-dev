@@ -38,7 +38,7 @@ func main() {
 
 - Showing icons
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fadlan-dev&hide=issues&show_icons=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/pin?username=fadlan-dev&hide=issues&show_icons=true)
 
 - Customize Border Color
 
@@ -61,10 +61,6 @@ Choose from any of the [default themes](#themes)
 - Customizing stats card
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=fadlan-dev&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
-
-- Setting card locale
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=fadlan-dev&locale=th)
 
 - Customizing repo card
 
