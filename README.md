@@ -64,7 +64,7 @@ Choose from any of the [default themes](#themes)
 
 - Setting card locale
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=fadlan-dev&locale=es)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=fadlan-dev&locale=th)
 
 - Customizing repo card
 
@@ -74,9 +74,6 @@ Choose from any of the [default themes](#themes)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fadlan-dev)](https://github.com/anuraghazra/github-readme-stats)
 
-- Wakatime card
-
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=fadlan-dev)](https://github.com/anuraghazra/github-readme-stats)
 
 <!---
 fadlan-dev/fadlan-dev is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
