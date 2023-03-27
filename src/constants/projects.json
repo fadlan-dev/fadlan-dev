@@ -1,0 +1,26 @@
+[
+  {
+    "title": "likemaldives.com",
+    "image": "/images/likemaldives.png",
+    "desc": "Booking websites",
+    "tech": ["Nextjs", "JavaScript", "SCSS"],
+    "git_url": "",
+    "demo_url": "https://likemaldives.com"
+  },
+  {
+    "title": "triple-i.in",
+    "image": "/images/triple-i.in.png",
+    "desc": "Official website landing page",
+    "tech": ["Nuxtjs", "JavaScript", "Firebase"],
+    "git_url": "",
+    "demo_url": "https://triple-i.in/"
+  },
+  {
+    "title": "kathistudio.co.th",
+    "image": "/images/kathistudio.co.th.png",
+    "desc": "Official website landing page",
+    "tech": ["Nextjs", "JavaScript", "Styled-components"],
+    "git_url": "",
+    "demo_url": "https://kathistudio.co.th/"
+  }
+]

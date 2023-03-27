@@ -1,0 +1,55 @@
+[
+  {
+    "position": "Frontend Web Developer",
+    "employment_type": "Full-time",
+    "company": {
+      "name": "Kathi Studio Co.,Ltd",
+      "website": "https://kathistudio.co.th"
+    },
+    "location": "Bangkok Thailand",
+    "location_type": "Remote",
+    "start_date": 1630429200000,
+    "end_date": null,
+    "techs": [
+      "React",
+      "Nextjs",
+      "JavaScript",
+      "TypeScript",
+      "Tailwind CSS",
+      "Flutter"
+    ]
+  },
+  {
+    "position": "Co-Founder and CTO",
+    "employment_type": "Self-employed",
+    "company": {
+      "name": "The Triple Innovation Co., Ltd.",
+      "website": "https://triple-i.in/"
+    },
+    "location": "Pattani Thailand",
+    "location_type": "Remote",
+    "start_date": 1606755600000,
+    "end_date": null,
+    "techs": ["React", "Nextjs", "JavaScript", "Ant Design", "Tailwind CSS"]
+  },
+  {
+    "position": "Frontend Web Developer",
+    "employment_type": "Full-time",
+    "company": { "name": "iSAAC TECH", "website": null },
+    "location": "Bangkok Thailand",
+    "location_type": "On-site",
+    "start_date": 1561914000000,
+    "end_date": 1604077200000,
+    "techs": ["React", "JavaScript", "Ant Design"]
+  },
+  {
+    "position": "UX UI",
+    "employment_type": "Internship",
+    "company": { "name": "Ztrus", "website": "https://www.ztrus.com/" },
+    "location": "Bangkok Thailand",
+    "location_type": "On-site",
+    "start_date": 1546275600000,
+    "end_date": 1556643600000,
+    "techs": ["Adobe XD", "Illustrator"]
+  }
+]
