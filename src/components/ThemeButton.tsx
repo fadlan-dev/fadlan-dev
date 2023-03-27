@@ -19,7 +19,7 @@ const Index = (props: Props) => {
     if (systemTheme) {
       setTheme(localStorageTheme || systemTheme);
     }
-  }, [systemTheme]);
+  }, [systemTheme, setTheme]);
 
   /* A function that returns a different icon depending on the theme. */
   const iconSwitcher = () => {
@@ -33,7 +33,7 @@ const Index = (props: Props) => {
     (theme: string) => {
       setTheme(theme);
     },
-    [theme]
+    [setTheme]
   );
 
   const DropdownMenuItem = ({
