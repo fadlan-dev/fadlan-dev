@@ -6,6 +6,12 @@ html {
   scroll-behavior: smooth !important;
 }
 
+@layer components {
+  .text-secondary {
+    @apply text-[#999] dark:text-[#999];
+  }
+}
+
 /* :root {
   --max-width: 1100px;
   --border-radius: 12px;
