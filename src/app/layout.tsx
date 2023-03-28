@@ -4,6 +4,7 @@ import './globals.css';
 import { ServerThemeProvider } from '@wits/next-themes';
 import { IBM_Plex_Sans_Thai_Looped } from 'next/font/google';
 import ScollTopButton from '@/components/ScollTopButton';
+import { Analytics } from '@vercel/analytics/react';
 
 const roboto = IBM_Plex_Sans_Thai_Looped({
   weight: ['400', '500', '700'],
@@ -27,6 +28,7 @@ export default function RootLayout({
           <ScollTopButton />
           <Navbar />
           {children}
+          <Analytics />
           <Footer />
         </body>
       </html>
