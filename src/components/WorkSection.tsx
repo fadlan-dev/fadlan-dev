@@ -6,7 +6,6 @@ import React from 'react';
 type Props = {
   data: Project[];
 };
-const textSecondary = 'text-slate-700 dark:text-slate-300';
 
 const Index = ({ data }: Props) => {
   return (
@@ -56,13 +55,13 @@ const Index = ({ data }: Props) => {
                         </p>
                       )}
                       <div>
-                        <p className={`line-clamp-3 ${textSecondary}`}>
+                        <p className={`line-clamp-3 text-secondary`}>
                           {project.desc}
                         </p>
                       </div>
                       <div className='mt-1'>
                         <ol
-                          className={`flex justify-start sm:justify-end flex-wrap gap-2 text-sm ${textSecondary}`}
+                          className={`flex justify-start sm:justify-end flex-wrap gap-2 text-sm text-secondary`}
                         >
                           {project.tech.map((tech, i) => (
                             <li key={i}>{tech}</li>

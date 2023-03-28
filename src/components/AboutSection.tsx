@@ -18,7 +18,7 @@ const Index = (props: Props) => {
             <h2 className='text-black dark:text-white text-2xl font-bold'>
               About Me
             </h2>
-            <p className='mt-4 text-slate-700 dark:text-slate-300'>
+            <p className='mt-4 text-secondary'>
               I am a developer with a thorough knowledge of
               <span className='text-primary font-medium px-1'>
                 JavaScript, TypeScript, React and Nextjs.
@@ -35,7 +35,7 @@ const Index = (props: Props) => {
             <p className='mt-4 text-black dark:text-white'>
               Here are a few technologies I’ve been working with recently:
             </p>
-            <ol className='flex flex-row flex-wrap sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 gap-1 text-slate-700 dark:text-slate-300'>
+            <ol className='flex flex-row flex-wrap sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 gap-1 text-secondary'>
               {TECH_STACK.map((tech, i) => (
                 <React.Fragment key={tech}>
                   <li>
@@ -47,7 +47,7 @@ const Index = (props: Props) => {
             </ol>
             <div className='mt-4'>
               <p className='text-black dark:text-white'>Certificate :</p>
-              <ol className='list-disc pl-6 text-slate-700 dark:text-slate-300'>
+              <ol className='list-disc pl-6 text-secondary'>
                 {certificates.map((cert, i) => (
                   <li key={cert.title}>
                     <Link

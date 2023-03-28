@@ -53,7 +53,19 @@ const Index = (props: Props) => {
     >
       <div className='flex items-center justify-between h-20 px-6'>
         <div>
-          <Link href='#home' className='text-primary bg-gradient'>
+          <Link
+            href='/'
+            className='text-primary bg-gradient'
+            onClick={() => {
+              const elm = document.getElementById('home');
+              if (elm) {
+                elm.scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'start',
+                });
+              }
+            }}
+          >
             <Logo />
           </Link>
         </div>
@@ -68,9 +80,22 @@ const Index = (props: Props) => {
             {MENUS.map((menu) => (
               <li
                 key={menu}
-                className='w-full text-slate-700 dark:text-slate-300 hover:text-black dark:hover:text-white capitalize px-2 py-4 text-center sm:px-0 sm:py-0'
+                className='w-full text-secondary capitalize p-2 sm:p-0'
               >
-                <Link href={`#${menu}`} onClick={() => setOpen(false)}>
+                <Link
+                  className='flex justify-center w-full sm:w-fit hover:text-black dark:hover:text-white hover:bg-zinc-100 sm:hover:bg-transparent dark:hover:bg-zinc-900 sm:dark:hover:bg-transparent px-1 py-2 sm:px-0 sm:py-0 rounded transition'
+                  href={`/`}
+                  onClick={() => {
+                    isOpen && setOpen(false);
+                    const elm = document.getElementById(menu);
+                    if (elm) {
+                      elm.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start',
+                      });
+                    }
+                  }}
+                >
                   {menu}
                 </Link>
               </li>

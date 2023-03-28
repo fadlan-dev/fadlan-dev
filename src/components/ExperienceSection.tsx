@@ -5,8 +5,6 @@ import { calcDate } from '@/libs/utils';
 
 type Props = {};
 
-const textSecondary = 'text-slate-700 dark:text-slate-300';
-
 const Index = (props: Props) => {
   return (
     <section id='experience'>
@@ -24,7 +22,7 @@ const Index = (props: Props) => {
                     className='flex flex-col sm:flex-row items-start gap-x-4'
                   >
                     <div
-                      className={`max-w-[140px] w-full flex flex-row sm:justify-end gap-1 text-sm ${textSecondary}`}
+                      className={`max-w-[140px] w-full flex flex-row sm:justify-end gap-1 text-sm text-secondary`}
                     >
                       <p className='mt-[2px] whitespace-nowrap'>
                         {`${dayjs(exp.start_date).format('MMM YYYY')} - ${
@@ -40,13 +38,13 @@ const Index = (props: Props) => {
                           {exp.position}
                         </p>
                         <span
-                          className={`text-xs whitespace-nowrap ${textSecondary}`}
+                          className={`text-xs whitespace-nowrap text-secondary`}
                         >
                           {calcDate(exp.start_date, exp.end_date || new Date())}
                         </span>
                       </div>
                       <div
-                        className={`flex flex-col gap-2 text-sm ${textSecondary}`}
+                        className={`flex flex-col gap-2 text-sm text-secondary`}
                       >
                         <div className='flex gap-1'>
                           {exp.company.website ? (
@@ -64,17 +62,15 @@ const Index = (props: Props) => {
                           )}
                           {'·'}
                           <span
-                            className={`${textSecondary} font-normal text-sm`}
+                            className={`text-secondary font-normal text-sm`}
                           >
                             {exp.employment_type}
                           </span>
                         </div>
                       </div>
-                      <p className={`${textSecondary} text-sm`}>
-                        {exp.location}
-                      </p>
+                      <p className={`text-secondary text-sm`}>{exp.location}</p>
                       <ol
-                        className={`flex flex-wrap items-center gap-x-1 ${textSecondary}`}
+                        className={`flex flex-wrap items-center gap-x-1 text-secondary`}
                       >
                         {exp.techs.map((tech, i) => (
                           <React.Fragment key={tech}>
