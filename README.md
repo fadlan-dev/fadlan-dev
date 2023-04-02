@@ -10,7 +10,7 @@ func main() {
   fadlan := aboutMe {
     pronouns: ["He", "Him"],
     languages: ["JavaScript" , "Typescript"],
-    hobbies: ["Running", "Coding", "Watching"],
+    hobbies: ["Coding", "Running"],
     funFact: "The Sunrise is in the East",
   }
 
