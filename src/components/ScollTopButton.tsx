@@ -32,7 +32,7 @@ const Index = (props: Props) => {
     ) as HTMLCollectionOf<HTMLElement>;
 
     if (bg) {
-      bg[0].style.background = `conic-gradient(#49c5b6 ${degrees}deg, transparent ${degrees}deg)`;
+      bg[0].style.background = `conic-gradient(currentColor ${degrees}deg, transparent ${degrees}deg)`;
     }
   };
 
@@ -42,7 +42,7 @@ const Index = (props: Props) => {
         scrollPosition > 64 ? 'visible shadow' : 'invisible'
       }`}
     >
-      <div className='bg rounded-full p-1 '>
+      <div className='bg text-primary rounded-full p-1 '>
         <div className='bg-white dark:bg-black rounded-full'>
           <button
             className='w-10 h-10 flex justify-center items-center rounded-full text-black dark:text-white '

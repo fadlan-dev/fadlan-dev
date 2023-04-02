@@ -39,18 +39,22 @@ const Index = (props: Props) => {
   const DropdownMenuItem = ({
     children,
     onClick,
+    value,
     ...props
   }: {
     children: ReactNode;
-    onClick?: () => void;
+    onClick: Function;
+    value: string;
   }) => {
     return (
       <DropdownMenu.Item
-        onClick={onClick}
+        onClick={() => onClick(value)}
         {...props}
-        className={
-          'group bg-white dark:bg-black hover:bg-slate-100 dark:hover:bg-zinc-900 text-sm rounded flex items-center h-7 px-2 py-1 relative select-none outline-none cursor-pointer'
-        }
+        className={`group ${
+          value === theme
+            ? 'bg-zinc-200 dark:bg-zinc-800'
+            : 'bg-white dark:bg-black'
+        }  hover:bg-zinc-100 dark:hover:bg-zinc-900 text-sm rounded flex items-center h-7 px-2 py-1 relative select-none outline-none cursor-pointer`}
       >
         {children}
       </DropdownMenu.Item>
@@ -83,15 +87,24 @@ const Index = (props: Props) => {
           align='end'
           className='bg-white dark:bg-black border dark:border-zinc-800 rounded p-1 mr-2'
         >
-          <DropdownMenuItem onClick={() => toggleTheme('system')}>
+          <DropdownMenuItem
+            value='system'
+            onClick={(value: string) => toggleTheme(value)}
+          >
             <DesktopIcon className='mr-2' /> System
           </DropdownMenuItem>
           <Separator />
-          <DropdownMenuItem onClick={() => toggleTheme('dark')}>
+          <DropdownMenuItem
+            value='dark'
+            onClick={(value: string) => toggleTheme(value)}
+          >
             <MoonIcon className='mr-2' /> Dark
           </DropdownMenuItem>
           <Separator />
-          <DropdownMenuItem onClick={() => toggleTheme('light')}>
+          <DropdownMenuItem
+            value='light'
+            onClick={(value: string) => toggleTheme(value)}
+          >
             <SunIcon className='mr-2' />
             Light
           </DropdownMenuItem>

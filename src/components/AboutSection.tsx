@@ -20,13 +20,13 @@ const Index = (props: Props) => {
             </h2>
             <p className='mt-4 text-secondary'>
               I am a developer with a thorough knowledge of
-              <span className='text-primary font-medium px-1'>
+              <span className='text-black dark:text-white font-medium px-1'>
                 JavaScript, TypeScript, React and Nextjs.
               </span>
               I have a host of projects to demonstrate that, so feel free to
               check out my featured section or my portfolio. I&apos;m currently
               working as a web developer at
-              <span className={`font-bold text-primary px-1`}>
+              <span className='text-black dark:text-white font-bold px-1'>
                 KATHI STUDIO
               </span>
               (Full-time) and in my free time I&apos;m learning Flutter
@@ -64,7 +64,14 @@ const Index = (props: Props) => {
           </div>
           <div className='basis-1/2 self-center'>
             <div className='flex items-center justify-center m-auto bg-white dark:bg-black w-72 h-72 rounded-full overflow-hidden p-2'>
-              <Avatar />
+              {/* <Avatar /> */}
+              <Image
+                src='/images/me.png'
+                width={220}
+                height={220}
+                className='object-contain'
+                alt='Me'
+              />
             </div>
           </div>
         </div>
