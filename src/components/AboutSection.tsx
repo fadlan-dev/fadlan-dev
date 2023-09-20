@@ -27,7 +27,7 @@ const Index = (props: Props) => {
               check out my featured section or my portfolio. I&apos;m currently
               working as a web developer at
               <span className='text-black dark:text-white font-bold px-1'>
-                KATHI STUDIO
+                THE MONK GAMES CO., LTD.
               </span>
               (Full-time) and in my free time I&apos;m learning Flutter
               implementation

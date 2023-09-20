@@ -1,6 +1,19 @@
 [
   {
-    "position": "Frontend Web Developer",
+    "position": "Web Frontend Developer",
+    "employment_type": "Full-time",
+    "company": {
+      "name": "THE MONK GAMES CO., LTD.",
+      "website": "https://www.themonkstudio.com"
+    },
+    "location": "Bangkok Thailand",
+    "location_type": "Remote",
+    "start_date": 1694684713000,
+    "end_date": null,
+    "techs": ["React", "Nextjs", "JavaScript", "TypeScript", "Tailwind CSS"]
+  },
+  {
+    "position": "Web Frontend Developer",
     "employment_type": "Full-time",
     "company": {
       "name": "Kathi Studio Co.,Ltd",
@@ -9,7 +22,7 @@
     "location": "Bangkok Thailand",
     "location_type": "Remote",
     "start_date": 1630429200000,
-    "end_date": null,
+    "end_date": 1693475262000,
     "techs": [
       "React",
       "Nextjs",
@@ -33,7 +46,7 @@
     "techs": ["React", "Nextjs", "JavaScript", "Ant Design", "Tailwind CSS"]
   },
   {
-    "position": "Frontend Web Developer",
+    "position": "Web Frontend Developer",
     "employment_type": "Full-time",
     "company": { "name": "iSAAC TECH", "website": null },
     "location": "Bangkok Thailand",
