@@ -1,9 +1,17 @@
 [
   {
+    "title": "Aow Tani",
+    "image": "/images/aowtani.png",
+    "desc": "แหล่งรวมการท่องเที่ยวของจังหวัดปัตตานี ตามบริบทของวิถีของชุมชน ประวัติศาสตร์ วัฒนธรรม อาหาร เครื่องแต่งกาย สถานที่ท่องเที่ยว และอื่นๆอีกมากมาย",
+    "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Mantine"],
+    "git_url": "https://github.com/fadlan-dev/aowtani",
+    "demo_url": "https://aowtani.com"
+  },
+  {
     "title": "likemaldives.com",
     "image": "/images/likemaldives.png",
     "desc": "Booking websites",
-    "tech": ["Nextjs", "JavaScript", "SCSS"],
+    "tech": ["Next.js", "JavaScript", "SCSS"],
     "git_url": "",
     "demo_url": "https://likemaldives.com"
   },
@@ -19,7 +27,7 @@
     "title": "kathistudio.co.th",
     "image": "/images/kathistudio.co.th.png",
     "desc": "Official website landing page",
-    "tech": ["Nextjs", "JavaScript", "Styled-components"],
+    "tech": ["Next.js", "JavaScript", "Styled-components"],
     "git_url": "",
     "demo_url": "https://kathistudio.co.th/"
   }
