@@ -60,10 +60,15 @@ const Index = ({ data }: Props) => {
                       </div>
                       <div className='mt-1'>
                         <ol
-                          className={`flex justify-start sm:justify-end flex-wrap gap-2 text-sm text-muted-foreground`}
+                          className={`flex justify-start sm:justify-end flex-wrap gap-1 text-sm text-muted-foreground`}
                         >
                           {project.tech.map((tech, i) => (
-                            <li key={i}>{tech}</li>
+                            <li
+                              key={i}
+                              className="last:after:content-[''] after:content-['·'] after:inline-block after:ml-1"
+                            >
+                              {tech}
+                            </li>
                           ))}
                         </ol>
                       </div>

@@ -34,13 +34,13 @@ const Index = (props: Props) => {
               Here are a few technologies I’ve been working with recently:
             </p>
             <ol className='flex flex-row flex-wrap sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 gap-1 text-foreground'>
-              {TECH_STACK.map((tech, i) => (
-                <React.Fragment key={tech}>
-                  <li>
-                    <p>{tech}</p>
-                  </li>
-                  {i < TECH_STACK.length - 1 ? <span>·</span> : ''}
-                </React.Fragment>
+              {TECH_STACK.map((tech) => (
+                <li
+                  key={tech}
+                  className="last:after:content-[''] after:content-['·'] after:inline-block after:ml-2"
+                >
+                  {tech}
+                </li>
               ))}
             </ol>
             <div className='mt-4'>

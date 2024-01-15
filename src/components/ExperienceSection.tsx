@@ -74,13 +74,13 @@ const Index = (props: Props) => {
                       <ol
                         className={`flex flex-wrap items-center gap-x-1 text-muted-foreground`}
                       >
-                        {exp.techs.map((tech, i) => (
-                          <React.Fragment key={tech}>
-                            <li className='text-sm'>{tech}</li>
-                            {i < exp.techs.length - 1 && (
-                              <span className=' text-muted-foreground'>·</span>
-                            )}
-                          </React.Fragment>
+                        {exp.techs.map((tech) => (
+                          <li
+                            key={tech}
+                            className="text-sm last:after:content-[''] after:content-['·'] after:inline-block after:ml-1"
+                          >
+                            {tech}
+                          </li>
                         ))}
                       </ol>
                     </div>
