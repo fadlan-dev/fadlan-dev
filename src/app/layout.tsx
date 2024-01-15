@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <ServerThemeProvider attribute='class'>
       <html lang='en' className={roboto.className}>
-        <body className='bg-[#fafafa] dark:bg-[#111]'>
+        <body>
           <ScollTopButton />
           <Navbar />
           {children}

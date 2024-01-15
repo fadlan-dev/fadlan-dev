@@ -42,7 +42,7 @@ const Index = (props: Props) => {
   return (
     <nav
       id='navbar'
-      className={`fixed z-10 left-0 top-0 w-full bg-white dark:bg-black  border-b-zinc-200 dark:border-b-zinc-800 transition-colors fill-none backdrop-blur ${
+      className={`fixed z-10 left-0 top-0 w-full bg-transparent transition-colors fill-none backdrop-blur border-border ${
         scrollPosition > 64 ? 'border-b' : 'border-b-0'
       }
       ${
@@ -80,10 +80,10 @@ const Index = (props: Props) => {
             {MENUS.map((menu) => (
               <li
                 key={menu}
-                className='w-full text-secondary capitalize p-2 sm:p-0'
+                className='w-full text-muted-foreground hover:text-foreground capitalize p-2 sm:p-0'
               >
                 <Link
-                  className='flex justify-center w-full sm:w-fit hover:text-black dark:hover:text-white hover:bg-zinc-100 sm:hover:bg-transparent dark:hover:bg-zinc-900 sm:dark:hover:bg-transparent px-1 py-2 sm:px-0 sm:py-0 rounded transition'
+                  className='flex justify-center w-full sm:w-fit px-1 py-2 sm:px-0 sm:py-0 rounded transition'
                   href={`/`}
                   onClick={() => {
                     isOpen && setOpen(false);
