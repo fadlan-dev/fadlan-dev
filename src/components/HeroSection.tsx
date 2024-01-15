@@ -23,11 +23,16 @@ const Index = (props: Props) => {
             <p>Running</p>
           </div>
           <div className='flex flex-row gap-2 text-muted-foreground mt-2'>
-            <Link href={'https://github.com/fadlan-dev'} target='_blank'>
+            <Link
+              href={'https://github.com/fadlan-dev'}
+              aria-label='Go to github'
+              target='_blank'
+            >
               <GitHubLogoIcon width={24} height={24} />
             </Link>
             <Link
               href={'https://www.linkedin.com/in/fadlan-jehteerokee/'}
+              aria-label='Go to linkedin'
               target='_blank'
             >
               <LinkedInLogoIcon width={24} height={24} />

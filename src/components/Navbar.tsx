@@ -55,7 +55,8 @@ const Index = (props: Props) => {
         <div>
           <Link
             href='/'
-            className='text-primary bg-gradient'
+            aria-label='Home page'
+            className=' text-foreground bg-gradient'
             onClick={() => {
               const elm = document.getElementById('home');
               if (elm) {
