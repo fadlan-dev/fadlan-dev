@@ -8,25 +8,25 @@
     "demo_url": "https://aowtani.com"
   },
   {
-    "title": "likemaldives.com",
+    "title": "Likemaldives",
     "image": "/images/likemaldives.png",
-    "desc": "Booking websites",
+    "desc": "ผู้เชี่ยวชาญเส้นทางมัลดีฟส์ บริการให้คำปรึกษาและแนะนำรีสอร์มัลดีฟที่เหมาะกับคุณ",
     "tech": ["Next.js", "JavaScript", "SCSS"],
     "git_url": "",
     "demo_url": "https://likemaldives.com"
   },
   {
-    "title": "triple-i.in",
+    "title": "The Triple Innovation",
     "image": "/images/triple-i.in.png",
-    "desc": "Official website landing page",
+    "desc": "บริการพัฒนาซอฟต์แวร์ที่ตอบสนองต่อการเปลี่ยนแปลงในโลกดิจิตอล เพื่อยกระดับคุณภาพสินค้า (Products) และการบริการ (Service) ให้ดีขึ้นกว่าเดิม Chatbot Development , Software Development and Digital Marketing",
     "tech": ["Nuxtjs", "JavaScript", "Firebase"],
     "git_url": "",
     "demo_url": "https://triple-i.in/"
   },
   {
-    "title": "kathistudio.co.th",
+    "title": "Kathi Studio",
     "image": "/images/kathistudio.co.th.png",
-    "desc": "Official website landing page",
+    "desc": "รับพัฒนาแอพพลิเคชั่น ระบบบริหารจัดการ ระบบฐานข้อมูล ตามความต้องการของ ลูกค้าอย่างมืออาชีพ คิดจะสร้างแอพพลิเคชั่น นึกถึงกะทิ สตูดิโอ",
     "tech": ["Next.js", "JavaScript", "Styled-components"],
     "git_url": "",
     "demo_url": "https://kathistudio.co.th/"
