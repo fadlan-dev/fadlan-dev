@@ -1,10 +1,14 @@
 [
   {
     "title": "Go: The Fundamentals",
-    "img": "../certificates/certificates_a007c750-8aa6-11ea-8d2c-83841723db6c_9887_certificate_certificate-go-the-fundamentals_FADLAN.pdf"
+    "img": "https://www.skooldio.com/certificate/98873513-fa1c-44f0-84c0-2c30004d77de"
   },
   {
     "title": "Developing Robust API Services with Go",
-    "img": "../certificates/certificates_a007c750-8aa6-11ea-8d2c-83841723db6c_18b4_certificate_certificate-go-api_FADLAN.pdf"
+    "img": "https://www.skooldio.com/certificate/18b45b02-a585-4e9e-81ca-5df68ca4e103"
+  },
+  {
+    "title": "Introduction to Docker",
+    "img": "https://www.skooldio.com/certificate/dc4c13a3-bdff-423b-90fd-5b6578fed30d"
   }
 ]
