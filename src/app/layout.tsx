@@ -6,6 +6,7 @@ import { IBM_Plex_Sans_Thai_Looped } from 'next/font/google';
 import ScollTopButton from '@/components/ScollTopButton';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import BackgroundSnippet from '@/components/BackgroundSnippet';
 
 const roboto = IBM_Plex_Sans_Thai_Looped({
   weight: ['400', '500', '700'],
@@ -28,6 +29,7 @@ export default function RootLayout({
         <body>
           <SpeedInsights />
           <ScollTopButton />
+          <BackgroundSnippet />
           <Navbar />
           {children}
           <Analytics />

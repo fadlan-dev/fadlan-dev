@@ -42,8 +42,8 @@ const Index = (props: Props) => {
   return (
     <nav
       id='navbar'
-      className={`fixed z-10 left-0 top-0 w-full bg-transparent transition-colors fill-none backdrop-blur border-border ${
-        scrollPosition > 64 ? 'border-b' : 'border-b-0'
+      className={`sticky z-10 left-0 top-0 w-full bg-transparent transition-all fill-none border-border ${
+        scrollPosition > 64 ? 'border-b backdrop-blur' : 'border-b-0'
       }
       ${
         isOpen
