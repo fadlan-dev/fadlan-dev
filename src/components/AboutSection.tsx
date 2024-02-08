@@ -27,7 +27,8 @@ const Index = (props: Props) => {
               <span className='text-foreground font-bold px-1'>
                 THE MONK GAMES CO., LTD.
               </span>
-              (Full-time) and in my free time I&apos;m learning Flutter
+              (Full-time) and in my free time I&apos;m learning{' '}
+              <span className='text-foreground font-bold px-1'>Express.js</span>
               implementation
             </p>
             <p className='mt-4 text-muted-foreground'>
