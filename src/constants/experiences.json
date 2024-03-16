@@ -1,5 +1,13 @@
 [
   {
+    "position": "Freelance",
+    "location": "Yala Thailand",
+    "location_type": "Remote",
+    "start_date": "Mar 01 2024",
+    "end_date": null,
+    "techs": ["React.js", "TypeScript"]
+  },
+  {
     "position": "Web Frontend Developer",
     "employment_type": "Contact",
     "company": {
@@ -8,8 +16,8 @@
     },
     "location": "Bangkok Thailand",
     "location_type": "Remote",
-    "start_date": 1694684713000,
-    "end_date": 1709139600000,
+    "start_date": "Sep 14 2023",
+    "end_date": "Feb 29 2024",
     "techs": ["React.js", "Next.js", "JavaScript", "TypeScript", "Tailwind CSS"]
   },
   {
@@ -21,8 +29,8 @@
     },
     "location": "Bangkok Thailand",
     "location_type": "Remote",
-    "start_date": 1630429200000,
-    "end_date": 1693475262000,
+    "start_date": "Sep 01 2021",
+    "end_date": "Aug 31 2023",
     "techs": [
       "React.js",
       "Next.js",
@@ -38,8 +46,8 @@
     "company": { "name": "iSAAC TECH", "website": null },
     "location": "Bangkok Thailand",
     "location_type": "On-site",
-    "start_date": 1561914000000,
-    "end_date": 1604077200000,
+    "start_date": "Jul 01 2019",
+    "end_date": "Oct 31 2020",
     "techs": ["React.js", "JavaScript", "Ant Design"]
   },
   {
@@ -48,8 +56,8 @@
     "company": { "name": "Ztrus", "website": "https://www.ztrus.com/" },
     "location": "Bangkok Thailand",
     "location_type": "On-site",
-    "start_date": 1546275600000,
-    "end_date": 1556643600000,
+    "start_date": "Jan 01 2019",
+    "end_date": "Apr 30 2019",
     "techs": ["Adobe XD", "Illustrator"]
   }
 ]
