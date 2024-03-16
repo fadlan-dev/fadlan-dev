@@ -40,33 +40,35 @@ const Index = (props: Props) => {
                         <span
                           className={`text-xs whitespace-nowrap text-muted-foreground`}
                         >
-                          {calcDate(exp.start_date, exp.end_date || new Date())}
+                          {calcDate(exp.start_date, exp.end_date)}
                         </span>
                       </div>
                       <div
                         className={`flex flex-col gap-2 text-sm text-secondary`}
                       >
-                        <div className='flex gap-1'>
-                          {exp.company.website ? (
-                            <a
-                              href={exp.company.website}
-                              target='_blank'
-                              className={`font-bold hover:underline text-foreground`}
+                        {exp?.company && (
+                          <div className='flex gap-1'>
+                            {exp?.company?.website ? (
+                              <a
+                                href={exp.company.website}
+                                target='_blank'
+                                className={`font-bold hover:underline text-foreground`}
+                              >
+                                {exp.company.name}
+                              </a>
+                            ) : (
+                              <p className='font-bold text-foreground'>
+                                {exp?.company?.name}
+                              </p>
+                            )}
+                            {<span className=' text-muted-foreground'>·</span>}
+                            <span
+                              className={`text-muted-foreground font-normal text-sm`}
                             >
-                              {exp.company.name}
-                            </a>
-                          ) : (
-                            <p className='font-bold text-foreground'>
-                              {exp.company.name}
-                            </p>
-                          )}
-                          {<span className=' text-muted-foreground'>·</span>}
-                          <span
-                            className={`text-muted-foreground font-normal text-sm`}
-                          >
-                            {exp.employment_type}
-                          </span>
-                        </div>
+                              {exp.employment_type}
+                            </span>
+                          </div>
+                        )}
                       </div>
                       <p className={`text-muted-foreground text-sm`}>
                         {exp.location}
