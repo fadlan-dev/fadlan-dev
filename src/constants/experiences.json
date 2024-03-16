@@ -9,7 +9,7 @@
     "location": "Bangkok Thailand",
     "location_type": "Remote",
     "start_date": 1694684713000,
-    "end_date": null,
+    "end_date": 1709139600000,
     "techs": ["React.js", "Next.js", "JavaScript", "TypeScript", "Tailwind CSS"]
   },
   {
