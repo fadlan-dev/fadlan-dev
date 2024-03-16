@@ -33,19 +33,6 @@
     ]
   },
   {
-    "position": "Co-Founder",
-    "employment_type": "Self-employed",
-    "company": {
-      "name": "The Triple Innovation Co., Ltd.",
-      "website": "https://triple-i.in/"
-    },
-    "location": "Pattani Thailand",
-    "location_type": "Remote",
-    "start_date": 1606755600000,
-    "end_date": null,
-    "techs": ["React.js", "Next.js", "Docker", "JavaScript", "Tailwind CSS"]
-  },
-  {
     "position": "Web Frontend Developer",
     "employment_type": "Full-time",
     "company": { "name": "iSAAC TECH", "website": null },
